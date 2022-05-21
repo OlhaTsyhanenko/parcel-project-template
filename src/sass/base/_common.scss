@@ -1,0 +1,49 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    min-width: $mobile;
+    margin: 0;
+
+    color: var(--fontColor);
+    background-color: var(--mainBgBodyColor);
+
+    font-family: var(--mainFontFamily), sans-serif;
+    font-weight: var(--mainFontWeight);
+    font-size: var(--mainFontSize);
+    line-height: 1.389;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.link {
+    text-decoration: none;
+}

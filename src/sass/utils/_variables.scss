@@ -1,0 +1,18 @@
+:root {
+    --mainBgBodyColor:#E5E5E5;
+    --bgBodyColor: #ffffff;
+    --fontColor: rgba(0, 0, 0, 0.8); //осн колір
+    --titleColor: #000000; // заголовки
+    --titleBtnColor: #FFFFFF; // заголовки кнопок
+    --formColor: rgba(0, 0, 0, 0.5);
+
+    --mainFontFamily: 'Montserrat';
+    --formFontFamily: 'Roboto';
+    --mainFontSize: 36px;
+    --mainFontWeight: 400;
+}
+
+//screen
+$mobile: 320px;
+$tablet: 767.98px;
+$desktop: 1279.98px;
