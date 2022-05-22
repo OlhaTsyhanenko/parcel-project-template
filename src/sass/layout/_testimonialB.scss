@@ -8,6 +8,7 @@
         flex-direction: row;
         flex-wrap: nowrap;
         justify-content: center;
+        align-items: start;
     }
 }
 
@@ -27,31 +28,22 @@
 }
 
 .section-testimonialB__list {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    gap: 20px;
     justify-content: center;
-    margin-top: -20px;
 
     @media screen and (min-width: $tablet) {
-        margin-top: -60px;
-        margin-left: -84px;
+        grid-template-columns: repeat(2, 173px);
+    }
+
+    @media screen and (min-width: $desktop) {
+        grid-template-columns: repeat(3, 173px);
+        gap: 60px 84px;
+        justify-content: start;
     }
 }
 
 .section-testimonialB__item {
-    flex-basis: 100%;
-    margin-top: 20px;
-
-    @media screen and (min-width: $tablet) {
-        flex-basis: calc(100% / 2 - 84px);
-        margin-top: 60px;
-        margin-left: 84px;
-    }
-
-    @media screen and (min-width: $desktop) {
-        flex-basis: calc(100% / 3 - 84px);
-    }
-
     img {
         margin-right: auto;
         margin-left: auto;

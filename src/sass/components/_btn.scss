@@ -1,0 +1,18 @@
+.btn {
+    font-family: var(--formFontFamily), sans-serif;
+    padding: 21px 24px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    line-height: 1.166;
+    text-align: center;
+    background-color: var(--titleColor);
+    color: var(--titleBtnColor);
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        background-color: var(--formColor);
+    }
+}
