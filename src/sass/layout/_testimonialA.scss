@@ -1,7 +1,13 @@
+.section-testimonialA {
+    margin-top: 20px;
+
+    @media screen and (min-width: $tablet){
+        margin-top: 80px;
+    }
+
+}
+
 .section-testimonialA__title {
-    font-size: 48px;
-    line-height: 1.5;
-    color: var(--titleColor);
     text-align: center;
 }
 
@@ -43,9 +49,9 @@
     }
 
     img {
+        height: 76px;
         margin-right: auto;
         margin-left: auto;
     }
-
 }
 
